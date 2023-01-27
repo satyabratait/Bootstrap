@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+
+<body>
+    <!-- Section 1 -->
+    <nav class="container pt-1">
+        <div class="row">
+            <div class="col-2 d-flex align-items-center">
+                <img src="/assets/Group.png" alt="" />
+                <p class=" align-self-center fw-bold fs-2 text-primary pt-2 ps-2">The Box</p>
+            </div>
+            <ul class="col-6 offset-4 d-flex justify-content-between align-items-center list-unstyled">
+                <li>
+                    <a href="#home" class="text-decoration-none text-black link-primary">Home</a>
+                </li>
+                <li>
+                    <a href="#About-us" class="text-decoration-none text-black link-primary">About Us</a>
+                </li>
+                <li>
+                    <a href="#projects" class="text-decoration-none text-black link-primary">Projects</a>
+                </li>
+                <li>
+                    <a href="#services" class="text-decoration-none text-black link-primary">Services</a>
+                </li>
+                <li>
+                    <a href="#contact-us" class="text-decoration-none text-black link-primary">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section2 -->
+    <section class="section position-relative w-100 d-flex align-items-center"
+        style="background: url('/assets/Herotop.png') no-repeat center; height: 75vh">
+
+        <h1 class="p-2 ms-4">Building things <br> is our mission.</h1>
+
+
+        <div
+            class="position-absolute d-flex flex-column justify-content-between text-align-center w-25 h-25 bottom-0 end-0 bg-primary text-white">
+            <h3 class="justify-content-center align-items-center d-flex text-white p-2">Feature Projects</h3>
+            <!-- <br> -->
+            <div class="build-name p-2 justify-content-center align-items-center d-flex">The National University of
+                Architecture</div>
+            <!-- <div class="text-decoration-none"> -->
+            <div class="list-unstyled bg-black d-flex">
+                <!-- <li class="flex-fill d-flex p-1"> -->
+                <button class=" w-100 btn  text-white border-end"><img src="/assets/backarrow.png" alt=""> Back
+                    <button class=" w-100 btn  text-white ">Next <img src="/assets/nextarrow.png" alt=""></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-3 -->
+    <section class="d-flex justify-content-center align-items-center flex-column p-3">
+        <h1 class="p-3 fs-1">Our Reputation</h1>
+        <br>
+        <div class="row d-flex justify-content-center gap-5">
+            <div class=" col-3 card d-flex align-items-start p-3 justify-content-center">
+                <img src="/assets/headphone.png" alt="" />
+                <h3 class="pt-1">Best Services</h3>
+                <p>Nullam senectus porttitor in eget. Eget rutrum leo interdum..</p>
+            </div>
+            <div class="col-3 card d-flex align-items-start p-3 justify-content-center">
+                <img src="/assets/headphone.png" alt="" />
+                <h3 class="pt-1">Best Teams</h3>
+                <p>Cursus semper tellus volutpat aliquet lacus. </p>
+            </div>
+            <div class="col-3 card d-flex align-items-start p-3 justify-content-center">
+                <img src="/assets/pen.png" alt="" />
+                <h3 class="pt-1">Best Designs</h3>
+                <p>Ultricies at ipsum nunc, tristique nam lectus..</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 -->
+    <section class="person position-relative w-100 p-5">
+        <div class="w-100 position-relative d-flex justify-content-center align-items-center flex-column p-5">
+            <div class="w-75">
+                <img src="/assets/person.png" alt="" class="w-75" />
+            </div>
+            <div class="position-absolute bg-primary text-white d-flex flex-column align-items-start w-25 px-3 py-5"
+                style="top:15%; left:800px">
+                <h1 class="fs-1">About us</h1>
+                <p>
+                    For more than 30 years we have been delivering world-class
+                    construction and we've built many lasting relationships along the
+                    way.
+                </p>
+                <p>
+                    We've matured into an industry leader and trusted resource for those
+                    seeking quality, innovation and reliability when building in the
+                    U.S.
+                </p>
+                <button class="btn bg-white text-primary">More on Our History</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 5 -->
+    <section
+        class="service-container w-100 d-flex flex-column justify-content-center align-items-center  bg-body-tertiary p-3">
+        <div class="container-service">
+            <h1 class="d-flex justify-content-center align-items-center p-5 fs-1">Services</h1>
+        </div>
+        <div class="ser-icon row w-75">
+            <div
+                class="col-3 offset-1 d-flex justify-content-center align-items-center flex-column shadow-lg p-5 mb-5 ">
+                <div>
+                    <img src="/assets/construction.png" alt="" />
+                </div>
+                <hr class="w-25" />
+                <div class="fs-4">construction</div>
+            </div>
+            <div
+                class="col-3 offset-1 d-flex justify-content-center align-items-center flex-column bg-primary text-white shadow-lg p-5 mb-5">
+                <div>
+                    <img src="/assets/renovation.png" alt="" />
+                </div>
+                <hr class="w-25" />
+                <div class="fs-4">renovation</div>
+            </div>
+            <div class="col-3 offset-1 d-flex justify-content-center align-items-center flex-column shadow-lg p-5 mb-5">
+                <div>
+                    <img src="/assets/consultation.png" alt="" />
+                </div>
+                <hr class="w-25" />
+                <div class="fs-4">consultation</div>
+            </div>
+        </div>
+        <div class="row w-75 ">
+            <div
+                class="col-3 offset-1 w-25 d-flex justify-content-center align-items-center flex-column bg-primary text-white shadow-lg p-5 mb-5">
+                <div>
+                    <img src="/assets/repair-services.png" alt="" />
+                </div>
+                <hr class="w-25" />
+                <div class="fs-4">repair-services</div>
+            </div>
+            <div
+                class="col-3 offset-1 d-flex justify-content-center align-items-center flex-column white shadow-lg p-5 mb-5">
+                <div>
+                    <img src="/assets/renovation.png" alt="" />
+                </div>
+                <hr class="w-25" />
+                <div class="fs-4">renovation</div>
+            </div>
+            <div
+                class="col-3 offset-1 d-flex justify-content-center align-items-center flex-column bg-primary text-white shadow-lg p-5 mb-5 ">
+                <div>
+                    <img src="/assets/architectute.png" alt="" />
+                </div>
+                <hr class="w-25" />
+                <div class="fs-4">architecture</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 6 -->
+    <section class="sixthsection">
+        <img src="/assets/deal.png" alt="" class="sixthsectionfirstimage" />
+        <div class="sixthsectionfirsttext">
+            <span>
+                <h1>84</h1>
+                        Happy Clients
+            </span>
+        </div>
+        <img src="/assets/notes.png" alt="" class="sixthsectionsecondimage" />
+        <div class="sixthsectionsecondtext">
+            <span>
+                <h1>123</h1>
+                Projects Completed
+            </span>
+        </div>
+        <img src="/assets/awards.png" alt="" class="sixthsectionthirdimage" />
+        <div class="sixthsectionthirdtext">
+            <span>
+                <h1>37</h1>
+                Awards Win
+            </span>
+        </div>
+        <img src="/assets/business.png" alt="" class="sixthsectionfourthimage" />
+        <div class="sixthsectionfourthtext">
+            <span>
+                <h1>30</h1>
+                Years in Business
+            </span>
+        </div>
+        <span class="sixthsectionaboutheading"> 30 Years Experience </span>
+        <span class="sixthsectionaboutcontents pt-3">
+            Our company has been the leading provided construction services to
+            clients throughout the USA since 1988.
+        </span>
+        <button class="sixthsectionaboutbutton text-center">Contact-Us</button>
+    </section>
+
+
+    <!-- section 7 -->
+    <div class="text-white d-flex justify-content-between p-5 align-items-center"
+        style="background-image: url('/assets/ads.png'); height:30vh;">
+        <div>
+            <h1>Free consultation with exceptional quality</h1>
+            <br />
+            <h4>Just one call away: +84 1102 2703</h4>
+        </div>
+        <button class="bg-transparent text-white me-5">Get your consultation</button>
+    </div>
+    </section>
+
+    <!-- section 8 -->
+    <section class="Projects d-flex justify-content-around mt-3">
+          <div class="Projects-Menu">
+            <p  class="d-flex justify-content-center fs-1">Projects</p>
+            <ul class="Projects-lists list-unstyled ms-4">
+                <li>All</li>
+              <li>Commercial</li>
+              <li>Residential</li>
+              <li>Other</li>
+            </ul>
+          </div>
+          <div class="Projects-Example">
+            <div class="parts d-flex mt-5 gap-4">
+              <div class="Projects-Example-Box">
+                <div class="parts-image">
+                  <img src="assets/WildStone.png" alt="" />
+                </div>
+                <div class="parts-About bg-primary ps-2">
+                  <p class="parts-About-text1">Wildstone Infra Hotel</p>
+                  <p class="parts-About-text2">
+                    2715 Ash Dr. San Jose, South Dakota
+                  </p>
+                </div>
+              </div>
+              <div class="Projects-Example-Box">
+                <div class="parts-image">
+                  <img src="assets/WishStone.png" alt="" />
+                </div>
+                <div class="parts-About bg-primary ps-2">
+                  <p class="parts-About-text1">Wish Stone Building</p>
+                  <p class="parts-About-text2">
+                    2972 Westheimer Rd. Santa Ana, Illinois
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="parts d-flex gap-4">
+              <div class="Projects-Example-Box">
+                <div class="parts-image">
+                  <img src="assets/parkinson.png" alt="" />
+                </div>
+                <div class="parts-About bg-primary ps-2">
+                  <p class="parts-About-text1">Mr. Parkinston's House</p>
+                  <p class="parts-About-text2">
+                    3517 W. Gray St. Utica, Pennsylvania
+                  </p>
+                </div>
+              </div>
+              <div class="Projects-Example-Box">
+                <div class="parts-image">
+                  <img src="assets/oregano.png" alt="" />
+                </div>
+                <div class="parts-About bg-primary ps-2">
+                  <p class="parts-About-text1">Oregano Height</p>
+                  <p class="parts-About-text2">2464 Royal Ln. Mesa, New Jersey</p>
+                </div>
+              </div>
+            </div>
+            <div class="Projects-Example-Nav d-flex justify-content-between w-100">
+              <button class="w-25 text-white bg-black"><img src="/temp/assets/backarrow.png" alt="">Back</button>
+              <button class="w-25 text-white bg-black">Next <img src="/temp/assets/nextarrow.png" alt=""></button>
+            </div>
+          </div>
+    </section>
+    <!-- section 9 -->
+
+    <section class="cta w-100 text-black bg-body-tertiary mt-5 pt-3">
+        <div class="feedback w-100 d-flex justify-content-center align-items-center flex-column">
+            <div class="feedback-head d-flex justify-content-center align-items-center flex-column ">
+                <h1>What can us do for you?</h1>
+                <p>
+                    We are ready to work on a project of any complexity, whether it's
+                    commercial or residential.
+                </p>
+            </div>
+            <div class=" w-75 d-flex justify-content-center align-items-center flex-column p-5">
+                <div class="d-flex justify-content-center align-items-center flex-column p-2 w-100 gap-4">
+                    <form class="row d-flex flex-row w-50">
+                        <input type="text" placeholder="Your Name" class="w-50" />
+                        <input type="text" placeholder="Email" class="w-50" />
+                    </form>
+                    <form class="row d-flex w-50">
+                        <input type="text" placeholder="Reason For Contact" class="w-50" />
+                        <input type="text" placeholder="Phone Number" class="w-50" />
+                    </form>
+                    <div class="row d-flex w-50">
+
+                        <textarea name="message" placeholder="Message" class="w-100" rows="10"></textarea>
+                    </div>
+                </div>
+                <button class="btn btn bg-dark text-white w-25 p-2 ">Submit</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 10-->
+    <section>
+        <div class=" d-flex justify-content-around w-100 align-items-center pt-3 p-4">
+            <div class="d-flex flex-column w-50 align-items-start ">
+                <p>
+                    <span class="text-primary fw-bold">Address:</span>
+                    6391 Elgin St. Celina, Delaware 10299
+                </p>
+                <p>
+                    <span class="text-primary fw-bold"> Phone: </span>
+                    +84 1102 2703
+                </p>
+                <p>
+                    <span class="text-primary fw-bold">Email:</span>
+                    <a href="#hello@thebox.com">hello@thebox.com</a>
+                </p>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="/Sigma/Image/Group.png" alt="" class="mx-3" />
+                    <p class="fs-2 fw-bolder text-primary-emphasis pt-2"><em>The</em>Box</p>
+                </div>
+            </div>
+            <div class="w-25">
+                <div class="my-4 w-100">
+                    <h6 class="text-primary fw-bold">Newsletter:</h6>
+                    <form class="w-100 d-flex justify-content-between">
+                        <input type="text" class="form-control w-75" />
+                        <button class="btn bg-warning text-white w-25 ms-2">Subscribe</button>
+                    </form>
+                </div>
+                <div class="w-75">
+                    <h6 class="text-primary fw-bold">Social:</h6>
+                    <div class="d-flex gap-2 align-items-center w-100">
+                        <a href="#facebook"> <img src="assets/facebook.png" alt="" /> </a>
+                        <a href="#linkdin"><img src="assets/linkedin.png" alt="" /></a>
+                        <a href="#tiwtter"> <img src="assets/twitter.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="bg-primary text-white p-3 px-4">
+            <p>TheBox Company © 2022. All Rights Reserved</p>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

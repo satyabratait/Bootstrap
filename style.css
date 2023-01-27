@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Work-Sans", "sans-serif";
+}
+
+.sixthsection {
+  box-sizing: border-box;
+  position: relative;
+  width: 1440px;
+  height: 723px;
+}
+
+
+.sixthsectionfirsttext {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  position: absolute;
+  width: 280px;
+  height: 155px;
+  left: 32rem;
+  top: 122px;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1),
+    0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+}
+
+.sixthsectionfirstimage {
+  position: absolute;
+  width: 97px;
+  height: 97px;
+  left: 46rem;
+  top: 103px;
+}
+
+.sixthsectionsecondimage {
+  position: absolute;
+  width: 79px;
+  height: 79px;
+  left: 11rem;
+  top: 172px;
+}
+
+.sixthsectionsecondtext {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  position: absolute;
+  width: 361px;
+  height: 155px;
+  left: 13.2rem;
+  top: 221px;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1),
+    0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+}
+
+.sixthsectionthirdimage {
+  position: absolute;
+  width: 93px;
+  height: 93px;
+  left: 43rem;
+  top: 349px;
+}
+
+.sixthsectionthirdtext {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  position: absolute;
+  width: 276px;
+  height: 155px;
+  left: 29.1rem;
+  top: 364px;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1),
+    0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+}
+
+.sixthsectionfourthimage {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  left: 35rem;
+  top: 582px;
+}
+
+.sixthsectionfourthtext {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  position: absolute;
+  width: 333px;
+  height: 155px;
+  left: 17rem;
+  top: 469px;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1),
+    0px 4px 6px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+}
+
+.sixthsectionaboutheading {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 359px;
+  height: 140px;
+  right: 137px;
+  top: 172px;
+  font-size: 60px;
+  color: blue;
+}
+
+.sixthsectionaboutcontents {
+  position: absolute;
+  width: 330px;
+  height: 74px;
+  right: 166px;
+  top: 352px;
+}
+
+.sixthsectionaboutbutton {
+  background-color: #3911da;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  width: 176px;
+  height: 53px;
+  right: 320px;
+  top: 493px;
+  color: white;
+}
